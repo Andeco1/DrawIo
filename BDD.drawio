@@ -31,7 +31,7 @@
         <mxCell id="fPccxqtcktVZ9pP1lJ3p-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="fPccxqtcktVZ9pP1lJ3p-14" target="fPccxqtcktVZ9pP1lJ3p-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="fPccxqtcktVZ9pP1lJ3p-14" value="Анализ и адаптация" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="fPccxqtcktVZ9pP1lJ3p-14" value="Адаптирование" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="240" y="190" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="fPccxqtcktVZ9pP1lJ3p-21" value="Бизнес-требования" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
