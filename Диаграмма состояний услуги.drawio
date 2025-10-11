@@ -1,9 +1,94 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="28.2.5">
   <diagram name="Страница — 1" id="_8dJKQBKNMU0rjTZxX5r">
-    <mxGraphModel>
+    <mxGraphModel dx="895" dy="1510" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="5IWhjeovfh-nmFaX5XNI-3" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="5IWhjeovfh-nmFaX5XNI-1" target="5IWhjeovfh-nmFaX5XNI-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5IWhjeovfh-nmFaX5XNI-4" value="Мастер передал информацию&amp;nbsp;&lt;div&gt;о новой услуге&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="5IWhjeovfh-nmFaX5XNI-3">
+          <mxGeometry x="-0.358" y="2" relative="1" as="geometry">
+            <mxPoint x="93" y="6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5IWhjeovfh-nmFaX5XNI-1" value="" style="ellipse;fillColor=strokeColor;html=1;" vertex="1" parent="1">
+          <mxGeometry x="212" y="-258" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5IWhjeovfh-nmFaX5XNI-6" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="5IWhjeovfh-nmFaX5XNI-2" target="5IWhjeovfh-nmFaX5XNI-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5IWhjeovfh-nmFaX5XNI-7" value="Менеджер заполнил&amp;nbsp;&lt;div&gt;технологическую карту&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="5IWhjeovfh-nmFaX5XNI-6">
+          <mxGeometry x="-0.1759" y="-2" relative="1" as="geometry">
+            <mxPoint x="82" y="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5IWhjeovfh-nmFaX5XNI-2" value="Черновой вариант услуги" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="179.5" y="-160" width="95" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5IWhjeovfh-nmFaX5XNI-9" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" target="5IWhjeovfh-nmFaX5XNI-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="252" y="-39" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5IWhjeovfh-nmFaX5XNI-10" value="Менеджер добавил в&amp;nbsp;&lt;div&gt;список доступных услуг&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="5IWhjeovfh-nmFaX5XNI-9">
+          <mxGeometry x="-0.019" y="2" relative="1" as="geometry">
+            <mxPoint x="67" y="-14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5IWhjeovfh-nmFaX5XNI-5" value="Создана" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="179.5" y="-79" width="95" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5IWhjeovfh-nmFaX5XNI-21" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="5IWhjeovfh-nmFaX5XNI-8" target="5IWhjeovfh-nmFaX5XNI-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5IWhjeovfh-nmFaX5XNI-22" value="[мастер недоступен]" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="5IWhjeovfh-nmFaX5XNI-21">
+          <mxGeometry x="0.3246" y="-3" relative="1" as="geometry">
+            <mxPoint x="28" y="-15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5IWhjeovfh-nmFaX5XNI-8" value="Активна" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="289" y="28" width="95" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5IWhjeovfh-nmFaX5XNI-11" value="Приостановлена" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="396" y="209" width="353" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5IWhjeovfh-nmFaX5XNI-12" value="Обновляется" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="222" y="303" width="108" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5IWhjeovfh-nmFaX5XNI-13" value="Удалена" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="27" y="324" width="108" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5IWhjeovfh-nmFaX5XNI-14" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="5IWhjeovfh-nmFaX5XNI-5" target="5IWhjeovfh-nmFaX5XNI-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="409" as="sourcePoint" />
+            <mxPoint x="409" y="41" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="58" y="19" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5IWhjeovfh-nmFaX5XNI-15" value="Менеджер заполнил&amp;nbsp;&lt;div&gt;технологическую карту&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="5IWhjeovfh-nmFaX5XNI-14">
+          <mxGeometry x="-0.1759" y="-2" relative="1" as="geometry">
+            <mxPoint x="82" y="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5IWhjeovfh-nmFaX5XNI-18" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.09;entryY=-0.025;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="5IWhjeovfh-nmFaX5XNI-8" target="5IWhjeovfh-nmFaX5XNI-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5IWhjeovfh-nmFaX5XNI-19" value="[отсутствие необходимых материалов]" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="5IWhjeovfh-nmFaX5XNI-18">
+          <mxGeometry x="-0.1263" y="4" relative="1" as="geometry">
+            <mxPoint x="-10" y="-6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5IWhjeovfh-nmFaX5XNI-23" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.434;entryY=-0.058;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="5IWhjeovfh-nmFaX5XNI-8" target="5IWhjeovfh-nmFaX5XNI-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5IWhjeovfh-nmFaX5XNI-24" value="Менеджер приостановил услугу" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="5IWhjeovfh-nmFaX5XNI-23">
+          <mxGeometry x="0.6397" y="6" relative="1" as="geometry">
+            <mxPoint x="55" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
