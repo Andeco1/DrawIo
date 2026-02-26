@@ -1,0 +1,34 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.5.5">
+  <diagram name="Страница-1" id="SZlUQHfLZw_XsD1zt4-A">
+    <mxGraphModel dx="925" dy="613" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="5ftAXiAP-oaY-RfFQNyp-1" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Модуль отображения данных" vertex="1">
+          <mxGeometry height="190" width="290" x="150" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="5ftAXiAP-oaY-RfFQNyp-2" parent="5ftAXiAP-oaY-RfFQNyp-1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;p class=&quot;MsoNormal&quot; style=&quot;margin: 0pt 0pt 0.0001pt; text-align: justify; font-family: &amp;quot;Times New Roman&amp;quot;; font-size: 10.5pt;&quot;&gt;&lt;span style=&quot;font-size: 10.5pt;&quot;&gt;Визуализация движения ТС на карте&lt;/span&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="30" width="290" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5ftAXiAP-oaY-RfFQNyp-5" parent="5ftAXiAP-oaY-RfFQNyp-1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;p class=&quot;MsoNormal&quot; style=&quot;margin: 0pt 0pt 0.0001pt; text-align: justify; font-family: &amp;quot;Times New Roman&amp;quot;; font-size: 10.5pt;&quot;&gt;&lt;span style=&quot;font-size: 10.5pt;&quot;&gt;Отображение загруженностей ТС&lt;/span&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="30" width="290" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="5ftAXiAP-oaY-RfFQNyp-6" parent="5ftAXiAP-oaY-RfFQNyp-1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;p class=&quot;MsoNormal&quot; style=&quot;margin: 0pt 0pt 0.0001pt; text-align: justify; font-family: &amp;quot;Times New Roman&amp;quot;; font-size: 10.5pt;&quot;&gt;&lt;span style=&quot;font-size: 10.5pt;&quot;&gt;Отображение маршрутов ТС&lt;/span&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="30" width="290" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="5ftAXiAP-oaY-RfFQNyp-7" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Модуль обработки телеметрии" vertex="1">
+          <mxGeometry height="190" width="290" x="440" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="5ftAXiAP-oaY-RfFQNyp-8" parent="5ftAXiAP-oaY-RfFQNyp-7" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;p class=&quot;MsoNormal&quot; style=&quot;margin: 0pt 0pt 0.0001pt; text-align: justify; font-family: &amp;quot;Times New Roman&amp;quot;; font-size: 10.5pt;&quot;&gt;&lt;span style=&quot;font-size: 10.5pt;&quot;&gt;Подключение входящего потока данных с ОБУ&lt;/span&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="30" width="290" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5ftAXiAP-oaY-RfFQNyp-9" parent="5ftAXiAP-oaY-RfFQNyp-7" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;p class=&quot;MsoNormal&quot; style=&quot;margin: 0pt 0pt 0.0001pt; text-align: justify; font-family: &amp;quot;Times New Roman&amp;quot;; font-size: 10.5pt;&quot;&gt;&lt;span style=&quot;font-size: 10.5pt;&quot;&gt;Валидация входящих данных&lt;/span&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="30" width="290" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="5ftAXiAP-oaY-RfFQNyp-10" parent="5ftAXiAP-oaY-RfFQNyp-7" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;p class=&quot;MsoNormal&quot; style=&quot;margin: 0pt 0pt 0.0001pt; text-align: justify; font-family: &amp;quot;Times New Roman&amp;quot;; font-size: 10.5pt;&quot;&gt;&lt;span style=&quot;font-size: 10.5pt;&quot;&gt;Запись данных в БД&lt;/span&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="30" width="290" y="140" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
