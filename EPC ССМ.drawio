@@ -10,18 +10,6 @@
         <mxCell id="2K2PITjyA4_y9rhWK7xw-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#67FF0F;" value="Запуск игры" vertex="1">
           <mxGeometry height="50" width="120" x="280" y="90" as="geometry" />
         </mxCell>
-        <mxCell id="2K2PITjyA4_y9rhWK7xw-3" parent="1" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#FFB8F3;" value="" vertex="1">
-          <mxGeometry height="80" width="120" x="20" y="12.5" as="geometry" />
-        </mxCell>
-        <mxCell id="2K2PITjyA4_y9rhWK7xw-4" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFF68;" value="" vertex="1">
-          <mxGeometry height="80" width="120" x="20" y="110" as="geometry" />
-        </mxCell>
-        <mxCell id="2K2PITjyA4_y9rhWK7xw-5" edge="1" parent="1" source="2K2PITjyA4_y9rhWK7xw-4" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=1;exitDx=0;exitDy=0;" target="2K2PITjyA4_y9rhWK7xw-4" value="">
-          <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="150" y="235" as="sourcePoint" />
-            <mxPoint x="200" y="185" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="2K2PITjyA4_y9rhWK7xw-6" parent="1" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#FFB8F3;" value="Игра запущена" vertex="1">
           <mxGeometry height="50" width="114" x="283" y="160" as="geometry" />
         </mxCell>
