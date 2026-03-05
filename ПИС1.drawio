@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.5.5">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.6.0">
   <diagram name="Страница-1" id="SZlUQHfLZw_XsD1zt4-A">
-    <mxGraphModel dx="925" dy="613" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1970" dy="1077" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="5ftAXiAP-oaY-RfFQNyp-1" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Модуль отображения данных" vertex="1">
-          <mxGeometry height="190" width="290" x="150" y="560" as="geometry" />
+          <mxGeometry height="190" width="290" x="320" y="850" as="geometry" />
         </mxCell>
         <mxCell id="5ftAXiAP-oaY-RfFQNyp-2" parent="5ftAXiAP-oaY-RfFQNyp-1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;p class=&quot;MsoNormal&quot; style=&quot;margin: 0pt 0pt 0.0001pt; text-align: justify; font-family: &amp;quot;Times New Roman&amp;quot;; font-size: 10.5pt;&quot;&gt;&lt;span style=&quot;font-size: 10.5pt;&quot;&gt;Визуализация движения ТС на карте&lt;/span&gt;&lt;/p&gt;" vertex="1">
           <mxGeometry height="30" width="290" y="40" as="geometry" />
@@ -16,8 +16,14 @@
         <mxCell id="5ftAXiAP-oaY-RfFQNyp-6" parent="5ftAXiAP-oaY-RfFQNyp-1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;p class=&quot;MsoNormal&quot; style=&quot;margin: 0pt 0pt 0.0001pt; text-align: justify; font-family: &amp;quot;Times New Roman&amp;quot;; font-size: 10.5pt;&quot;&gt;&lt;span style=&quot;font-size: 10.5pt;&quot;&gt;Отображение маршрутов ТС&lt;/span&gt;&lt;/p&gt;" vertex="1">
           <mxGeometry height="30" width="290" y="140" as="geometry" />
         </mxCell>
+        <mxCell id="rJeG9PUpHAmp_mZzAs-D-34" edge="1" parent="1" source="5ftAXiAP-oaY-RfFQNyp-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="rJeG9PUpHAmp_mZzAs-D-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rJeG9PUpHAmp_mZzAs-D-40" edge="1" parent="1" source="5ftAXiAP-oaY-RfFQNyp-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" target="rJeG9PUpHAmp_mZzAs-D-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="5ftAXiAP-oaY-RfFQNyp-7" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Модуль обработки телеметрии" vertex="1">
-          <mxGeometry height="190" width="290" x="440" y="330" as="geometry" />
+          <mxGeometry height="190" width="290" x="-370" y="340" as="geometry" />
         </mxCell>
         <mxCell id="5ftAXiAP-oaY-RfFQNyp-8" parent="5ftAXiAP-oaY-RfFQNyp-7" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;p class=&quot;MsoNormal&quot; style=&quot;margin: 0pt 0pt 0.0001pt; text-align: justify; font-family: &amp;quot;Times New Roman&amp;quot;; font-size: 10.5pt;&quot;&gt;&lt;span style=&quot;font-size: 10.5pt;&quot;&gt;Подключение входящего потока данных с ОБУ&lt;/span&gt;&lt;/p&gt;" vertex="1">
           <mxGeometry height="30" width="290" y="40" as="geometry" />
@@ -27,6 +33,117 @@
         </mxCell>
         <mxCell id="5ftAXiAP-oaY-RfFQNyp-10" parent="5ftAXiAP-oaY-RfFQNyp-7" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;p class=&quot;MsoNormal&quot; style=&quot;margin: 0pt 0pt 0.0001pt; text-align: justify; font-family: &amp;quot;Times New Roman&amp;quot;; font-size: 10.5pt;&quot;&gt;&lt;span style=&quot;font-size: 10.5pt;&quot;&gt;Запись данных в БД&lt;/span&gt;&lt;/p&gt;" vertex="1">
           <mxGeometry height="30" width="290" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="rJeG9PUpHAmp_mZzAs-D-35" edge="1" parent="1" source="rJeG9PUpHAmp_mZzAs-D-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="rJeG9PUpHAmp_mZzAs-D-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rJeG9PUpHAmp_mZzAs-D-36" edge="1" parent="1" source="rJeG9PUpHAmp_mZzAs-D-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="rJeG9PUpHAmp_mZzAs-D-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rJeG9PUpHAmp_mZzAs-D-53" edge="1" parent="1" source="rJeG9PUpHAmp_mZzAs-D-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="rJeG9PUpHAmp_mZzAs-D-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rJeG9PUpHAmp_mZzAs-D-1" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Модуль мониторинга движения ТС" vertex="1">
+          <mxGeometry height="190" width="290" x="-20" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="rJeG9PUpHAmp_mZzAs-D-2" parent="rJeG9PUpHAmp_mZzAs-D-1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;p class=&quot;MsoNormal&quot; style=&quot;margin: 0pt 0pt 0.0001pt; text-align: justify; font-family: &amp;quot;Times New Roman&amp;quot;; font-size: 10.5pt;&quot;&gt;Загрузка и редактирование расписаний маршрутов&lt;/p&gt;" vertex="1">
+          <mxGeometry height="30" width="290" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rJeG9PUpHAmp_mZzAs-D-3" parent="rJeG9PUpHAmp_mZzAs-D-1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;p class=&quot;MsoNormal&quot; style=&quot;margin: 0pt 0pt 0.0001pt; text-align: justify; font-family: &amp;quot;Times New Roman&amp;quot;; font-size: 10.5pt;&quot;&gt;&lt;span style=&quot;font-size: 10.5pt;&quot;&gt;Обработка данных о загруженности ТС&lt;/span&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="30" width="290" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="rJeG9PUpHAmp_mZzAs-D-4" parent="rJeG9PUpHAmp_mZzAs-D-1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;p class=&quot;MsoNormal&quot; style=&quot;margin: 0pt 0pt 0.0001pt; text-align: justify; font-family: &amp;quot;Times New Roman&amp;quot;; font-size: 10.5pt;&quot;&gt;&lt;span style=&quot;font-size: 10.5pt;&quot;&gt;Расчёт E&lt;/span&gt;&lt;span style=&quot;font-size: 10.5pt;&quot;&gt;TA&lt;/span&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="30" width="290" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="rJeG9PUpHAmp_mZzAs-D-6" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Модуль работы с базой данных" vertex="1">
+          <mxGeometry height="190" width="290" x="-20" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="rJeG9PUpHAmp_mZzAs-D-7" parent="rJeG9PUpHAmp_mZzAs-D-6" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;p class=&quot;MsoNormal&quot; style=&quot;margin: 0pt 0pt 0.0001pt; text-align: justify; font-family: &amp;quot;Times New Roman&amp;quot;; font-size: 10.5pt;&quot;&gt;&lt;span style=&quot;font-size: 10.5pt;&quot;&gt;Обработка данных БД&lt;/span&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="30" width="290" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rJeG9PUpHAmp_mZzAs-D-8" parent="rJeG9PUpHAmp_mZzAs-D-6" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;p class=&quot;MsoNormal&quot; style=&quot;margin: 0pt 0pt 0.0001pt; text-align: justify; font-family: &amp;quot;Times New Roman&amp;quot;; font-size: 10.5pt;&quot;&gt;&lt;span style=&quot;font-size: 10.5pt;&quot;&gt;Поддержка БД&lt;/span&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="30" width="290" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="rJeG9PUpHAmp_mZzAs-D-9" parent="rJeG9PUpHAmp_mZzAs-D-6" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;p class=&quot;MsoNormal&quot; style=&quot;margin: 0pt 0pt 0.0001pt; text-align: justify; font-family: &amp;quot;Times New Roman&amp;quot;; font-size: 10.5pt;&quot;&gt;&lt;span style=&quot;font-size: 10.5pt;&quot;&gt;Создание резервных копий в соответствии с графиком&lt;/span&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="30" width="290" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="rJeG9PUpHAmp_mZzAs-D-10" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Модуль уведомлений" vertex="1">
+          <mxGeometry height="90" width="290" x="-370" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="rJeG9PUpHAmp_mZzAs-D-11" parent="rJeG9PUpHAmp_mZzAs-D-10" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;p class=&quot;MsoNormal&quot; style=&quot;margin: 0pt 0pt 0.0001pt; text-align: justify; font-family: &amp;quot;Times New Roman&amp;quot;; font-size: 10.5pt;&quot;&gt;&lt;span style=&quot;font-size: 10.5pt;&quot;&gt;Отправка уведомлений о задержках, отменах, отклонениях от маршрута&lt;/span&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="30" width="290" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rJeG9PUpHAmp_mZzAs-D-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="REST API для внешних систем" vertex="1">
+          <mxGeometry height="60" width="120" x="65" y="1000" as="geometry" />
+        </mxCell>
+        <mxCell id="rJeG9PUpHAmp_mZzAs-D-17" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Диспетчер" vertex="1">
+          <mxGeometry height="60" width="30" x="-250" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="rJeG9PUpHAmp_mZzAs-D-18" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Администратор" vertex="1">
+          <mxGeometry height="60" width="30" x="50" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="rJeG9PUpHAmp_mZzAs-D-19" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Пользователь" vertex="1">
+          <mxGeometry height="60" width="30" x="650" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="rJeG9PUpHAmp_mZzAs-D-20" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Модуль работы с пользователем" vertex="1">
+          <mxGeometry height="200" width="290" x="320" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="rJeG9PUpHAmp_mZzAs-D-21" parent="rJeG9PUpHAmp_mZzAs-D-20" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;p class=&quot;MsoNormal&quot; style=&quot;margin: 0pt 0pt 0.0001pt; text-align: justify; font-family: &amp;quot;Times New Roman&amp;quot;; font-size: 10.5pt;&quot;&gt;&lt;span style=&quot;font-size: 10.5pt;&quot;&gt;Регистрация пользователей&lt;/span&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="30" width="290" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rJeG9PUpHAmp_mZzAs-D-22" parent="rJeG9PUpHAmp_mZzAs-D-20" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;p class=&quot;MsoNormal&quot; style=&quot;margin: 0pt 0pt 0.0001pt; text-align: justify; font-family: &amp;quot;Times New Roman&amp;quot;; font-size: 10.5pt;&quot;&gt;&lt;span style=&quot;font-size: 10.5pt;&quot;&gt;Авторизация пользователей&lt;/span&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="30" width="290" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rJeG9PUpHAmp_mZzAs-D-23" parent="rJeG9PUpHAmp_mZzAs-D-20" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;p class=&quot;MsoNormal&quot; style=&quot;margin: 0pt 0pt 0.0001pt; text-align: justify; font-family: &amp;quot;Times New Roman&amp;quot;; font-size: 10.5pt;&quot;&gt;&lt;span style=&quot;font-size: 10.5pt;&quot;&gt;Использование личного кабинета&lt;/span&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="30" width="290" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="rJeG9PUpHAmp_mZzAs-D-24" parent="rJeG9PUpHAmp_mZzAs-D-20" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;p class=&quot;MsoNormal&quot; style=&quot;margin: 0pt 0pt 0.0001pt; text-align: justify; font-family: &amp;quot;Times New Roman&amp;quot;; font-size: 10.5pt;&quot;&gt;&lt;span style=&quot;font-size: 10.5pt;&quot;&gt;Использование личного кабинета&lt;/span&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="30" width="290" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="rJeG9PUpHAmp_mZzAs-D-30" edge="1" parent="1" source="rJeG9PUpHAmp_mZzAs-D-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="rJeG9PUpHAmp_mZzAs-D-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rJeG9PUpHAmp_mZzAs-D-31" edge="1" parent="1" source="rJeG9PUpHAmp_mZzAs-D-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="rJeG9PUpHAmp_mZzAs-D-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rJeG9PUpHAmp_mZzAs-D-33" edge="1" parent="1" source="rJeG9PUpHAmp_mZzAs-D-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="5ftAXiAP-oaY-RfFQNyp-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rJeG9PUpHAmp_mZzAs-D-39" parent="1" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" value="MQTT" vertex="1">
+          <mxGeometry height="45" width="80" x="-493" y="412.5" as="geometry" />
+        </mxCell>
+        <mxCell id="rJeG9PUpHAmp_mZzAs-D-45" edge="1" parent="1" source="rJeG9PUpHAmp_mZzAs-D-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="rJeG9PUpHAmp_mZzAs-D-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rJeG9PUpHAmp_mZzAs-D-41" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="ОБУ: модуль отправки телеметрии" vertex="1">
+          <mxGeometry height="190" width="290" x="-820" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="rJeG9PUpHAmp_mZzAs-D-42" parent="rJeG9PUpHAmp_mZzAs-D-41" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;p class=&quot;MsoNormal&quot; style=&quot;margin: 0pt 0pt 0.0001pt; text-align: justify; font-family: &amp;quot;Times New Roman&amp;quot;; font-size: 10.5pt;&quot;&gt;&lt;span style=&quot;font-size: 10.5pt;&quot;&gt;Подключение к модулю обработки&lt;/span&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="30" width="290" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rJeG9PUpHAmp_mZzAs-D-43" parent="rJeG9PUpHAmp_mZzAs-D-41" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;p class=&quot;MsoNormal&quot; style=&quot;margin: 0pt 0pt 0.0001pt; text-align: justify; font-family: &amp;quot;Times New Roman&amp;quot;; font-size: 10.5pt;&quot;&gt;&lt;span style=&quot;font-size: 10.5pt;&quot;&gt;Отправка данных&lt;/span&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="30" width="290" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="rJeG9PUpHAmp_mZzAs-D-44" parent="rJeG9PUpHAmp_mZzAs-D-41" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;p class=&quot;MsoNormal&quot; style=&quot;margin: 0pt 0pt 0.0001pt; text-align: justify; font-family: &amp;quot;Times New Roman&amp;quot;; font-size: 10.5pt;&quot;&gt;&lt;span style=&quot;font-size: 10.5pt;&quot;&gt;Кэширование данных&lt;/span&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="30" width="290" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="rJeG9PUpHAmp_mZzAs-D-47" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Пользователь" vertex="1">
+          <mxGeometry height="60" width="30" x="650" y="915" as="geometry" />
+        </mxCell>
+        <mxCell id="rJeG9PUpHAmp_mZzAs-D-48" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Администратор" vertex="1">
+          <mxGeometry height="60" width="30" x="110" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="rJeG9PUpHAmp_mZzAs-D-49" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Администратор" vertex="1">
+          <mxGeometry height="60" width="30" x="-240" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="rJeG9PUpHAmp_mZzAs-D-51" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Водитель ТС" vertex="1">
+          <mxGeometry height="60" width="30" x="-690" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="rJeG9PUpHAmp_mZzAs-D-54" edge="1" parent="1" source="rJeG9PUpHAmp_mZzAs-D-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="5ftAXiAP-oaY-RfFQNyp-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rJeG9PUpHAmp_mZzAs-D-52" parent="1" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" value="WebSocket" vertex="1">
+          <mxGeometry height="45" width="80" x="190" y="922.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
